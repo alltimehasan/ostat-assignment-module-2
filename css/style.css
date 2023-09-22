@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #edf2f9;
+    font-family: 'Lato', sans-serif;
+    color: #344050;
+}
+p {
+    font-size: 16px;
+    color: #344050;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+span.text-bold {
+    font-weight: 700;
+}
+.side-nav .nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: rgb(102, 112, 133);
+    border: 1px solid lightgray;
+    padding: 10px 15px;
+    min-width: 350px;
+    display: inline-block;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    transition: all 0.25s;
+}
+.side-nav .nav-link.active {
+    background-color: #101828;
+    color: #fff;
+}
+.side-nav .nav-link:hover {
+    background-color: #101828;
+    color: #fff;
+}
+.task {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 7px 14px 0 rgba(65, 69, 88, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.07);
+}
+h2.task-title {
+    margin-bottom: 30px;
+    color: #101828;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+}
+.module-form {
+    max-width: 550px;
+}
+.module-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    font-weight: 700;
+}
+.module-form input,
+.module-form select,
+.module-form input:focus,
+.module-form select:focus {
+    padding: 10px;
+    border: 1px solid lightgray;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    outline: none;
+    box-shadow: none;
+    border-radius: 3px;
+}
+.module-form button {
+    padding: 10px 30px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    outline: none;
+    box-shadow: none;
+    background-color: #ffcd33;
+    color: #000;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.results {
+    font-size: 25px;
+    line-height: 35px;
+    margin-top: 30px;
+}
